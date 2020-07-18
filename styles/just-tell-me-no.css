@@ -76,6 +76,8 @@ button {
     width: 6rem;
     cursor: pointer;
     padding: .2rem;
+    height: 2.5em;
+    font-weight: bolder;
 }
 
 a {

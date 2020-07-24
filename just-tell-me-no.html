@@ -18,7 +18,10 @@
                 'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '816983698835040');
             fbq('track', 'PageView');
-            fbq('track', 'ViewContent');
+            fbq('track', 'ViewContent', {
+                value: 0.003,
+                currency: 'USD'
+            });
         </script>
         <noscript>
             <img height="1" width="1" src="https://www.facebook.com/tr?id=816983698835040&ev=PageView
